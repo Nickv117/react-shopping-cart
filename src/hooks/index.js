@@ -1,1 +1,2 @@
-export { useExample } from "../redux/ducks/example"
+export { useChooks } from "../redux/ducks/cart/cartactions"
+export { usePhooks } from "../redux/ducks/products/productactions"

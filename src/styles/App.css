@@ -1,2 +1,52 @@
-html {box-sizing:border-box;}
-*, *::before, *::after {box-sizing:inherit;}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1600px;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.cart {
+  width: 250px;
+  transition: 1.5s;
+}
+
+img {
+  width: 215px;
+  height: 240px;
+}
+
+.products {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.products div:hover {
+  border: 1px solid rgb(177, 177, 177);
+}
+
+.pText {
+  color: black;
+}
+
+.addCart {
+  position: relative;
+  bottom: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 50px;
+}

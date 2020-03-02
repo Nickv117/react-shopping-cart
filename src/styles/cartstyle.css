@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.checkoutcart {
+  background-color: rgb(35, 35, 35);
+}
+
+.cartText {
+  color: white;
+}
+
+.price {
+  color: gold;
+}
+
+.deleteX {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
